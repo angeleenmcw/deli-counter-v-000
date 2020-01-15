@@ -15,7 +15,7 @@ def line (katz_deli, another_deli)
 end
 
 def take_a_number(katz_deli, another_deli)
-  another_deli_deli << name
+  another_deli << name
   puts "Hello, #{name}, You are number #{another_deli.count} in line"
 end
  
