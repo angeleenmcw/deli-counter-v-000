@@ -1,5 +1,6 @@
 katz_deli = []
-other_deli = 
+other_deli = ["Logan", "Avi", "Spencer"] 
+
 def line (katz_deli,)
    line_array[]
   if katz_deli == 0
