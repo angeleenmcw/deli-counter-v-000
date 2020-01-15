@@ -26,7 +26,7 @@ def now_serving(katz_deli, other_deli)
   else
     puts "currently serving #{other_deli.first}."
     other_deli.shift
-    return katz_deli
+    return other_deli
   end
 end
     
