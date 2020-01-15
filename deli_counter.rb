@@ -1,5 +1,6 @@
 katz_deli = []
-def line (katz_deli)
+other_deli = 
+def line (katz_deli,)
    line_array[]
   if katz_deli == 0
     return "The Line is currently empty"
