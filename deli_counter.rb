@@ -14,7 +14,7 @@ def line (katz_deli, another_deli)
   end
 end
 
-def take_a_number(katz_deli, another_deli)
+def take_a_number(katz_deli, other_deli)
   another_deli << name
   puts "Hello, #{name}, You are number #{another_deli.count} in line"
 end
