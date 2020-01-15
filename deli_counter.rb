@@ -1,12 +1,13 @@
 katz_deli = []
 other_deli = ["Logan", "Avi", "Spencer"] 
+another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
 
-def line (katz_deli,)
+def line (katz_deli, another_deli)
    line_array[]
   if katz_deli == 0
     return "The Line is currently empty"
   else
-    katz_deli.each_with_index do |name, index|
+    another_deli.each_with_index do |name, index|
       line_array.push("#{index} + #{name}")
     end
     puts "The line is currently #{line_array.join(" ")}"
